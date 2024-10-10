@@ -4,6 +4,15 @@ export INSTANCE=my-instance-name          # ตั้งชื่อ VM instance
 export FIREWALL=my-firewall-rule-name      # ตั้งชื่อ firewall rule
 export ZONE=us-central1-a                  # เลือกโซนที่ต้องการ
 
+รันอันนี้หลังจากรันบนแล้วววววววววววววววววววววววววว
+# ดาวน์โหลดไฟล์จาก GitHub
+curl -LO https://raw.githubusercontent.com/PondWongsatorn/cloud_final/main/allforone.sh
+
+# เปลี่ยนสิทธิ์ของไฟล์ให้สามารถรันได้
+sudo chmod +x allforone.sh
+
+# รันสคริปต์
+./allforone.sh
 
 คำอธิบายไม่ต้องอ่านหรอก :
 การสร้าง Compute Engine Instances
