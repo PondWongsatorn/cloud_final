@@ -1,9 +1,12 @@
 #!/bin/bash
 
+# ตัวแปรจากการตั้งค่า
+read -p "กรุณาใส่ชื่อ VM instance: " INSTANCE
+read -p "กรุณาใส่ชื่อ firewall rule: " FIREWALL
+read -p "กรุณาเลือกโซนที่ต้องการ (เช่น us-central1-a): " ZONE
+
 # กำหนดตัวแปรที่จำเป็น
 INSTANCE_NAME="my-jumphost-instance"  # เปลี่ยนชื่อ Instance ตามที่ต้องการ
-ZONE="us-central1-a"  # เปลี่ยนโซนตามที่ต้องการ
-FIREWALL="allow-http"  # ชื่อ Firewall Rule
 REGION="us-central1"  # เปลี่ยน Region ตามที่ต้องการ
 SQL_INSTANCE_NAME="my-sql-instance"  # ชื่อ SQL Instance
 DATABASE_NAME="mydatabase"  # ชื่อฐานข้อมูล

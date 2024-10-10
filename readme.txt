@@ -1,4 +1,11 @@
+รันอันนี้ก่อนนนนนนนนนนนนนนนนนนนนนนนนนนนนนนนน
+# ตัวแปรจากการตั้งค่า
+export INSTANCE=my-instance-name          # ตั้งชื่อ VM instance
+export FIREWALL=my-firewall-rule-name      # ตั้งชื่อ firewall rule
+export ZONE=us-central1-a                  # เลือกโซนที่ต้องการ
 
+
+คำอธิบายไม่ต้องอ่านหรอก :
 การสร้าง Compute Engine Instances
 การสร้าง Instance: ไปที่ Compute Engine เพื่อสร้าง VM instance ใหม่ โดยเลือกโซนและประเภท instance ที่เหมาะสมกับความต้องการ เช่น e2-micro ซึ่งเป็นประเภทที่มีค่าใช้จ่ายต่ำ.
 การกำหนด Boot Disk: เปลี่ยน Boot disk ให้เป็น Ubuntu และปรับขนาดให้เป็น 10 GB เพื่อให้เพียงพอสำหรับการใช้งาน.
